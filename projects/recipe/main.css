@@ -1,0 +1,102 @@
+body {
+    background-color: lightcyan;
+    color: darkslategrey;
+    font-family: Arial;
+    margin: 40px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+.small-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.intro {
+    font-size: 25px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.big-text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.steps {
+    margin-bottom: 30px;
+}
+
+.steps span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.challenge {
+    text-align: center;
+}
+
+.challenge h2 {
+    font-size: 60px;
+}
+
+.arrow {
+    font-size: 50px;
+}
+
+.result-title {
+    font-size: 50px;
+}
+
+.result-card {
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+.learn-more {
+    text-align: center;
+}
+
+.learn-more a {
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 100px;
+    font-size: 14px;
+}
+
+a {
+    color: darkslategrey;
+    font-weight: bold;
+}
