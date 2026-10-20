@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML Structure Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <header>
+      Core 1 Interaction: Lab –&nbsp;<em>HTML Structure Analysis</em>
+    </header>
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <img src="imgs/screenshot.png" class="screenshot" alt="Website screenshot">
+    </section>
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html">
+
+   <a href="https://www.moma.org/">Link to original site</a>
+          </pre>
+        </div>
+        <div id="analysis--text">
+
+
+            <section class="container">
+
+  <div class="left">
+    <h2>HTML Structure</h2>
+    <pre>
+body
+  div.page
+    div.wrapper
+      header#header
+        div.logo
+        nav.main-navigation
+          div.header-tools
+            div.hero-image
+            div.hero-text
+             div.section-header
+             div.exhibition-grid
+                div.collection-header
+                div.artwork-grid
+                 div.visit-information
+                div.footer-navigation
+            div.social-media
+        div.copyright
+    </pre>
+  </div>
+
+  <div class="right">
+    
+<p> The MoMA site has a distinct structure of its content organization. The `body` element includes all page content, whereas `div.page` and `div.wrapper` include main elements of the web-site.
+
+The `header#header` includes MoMA logo, main navigation and header tools that allow users to navigate through various parts of the website.
+
+The `div.hero-image` and `div.hero-text` elements are used to emphasize the most significant exhibitions. While large images are eye-catching, text explains the details of the artworks.
+
+The `div.exhibition-grid` and `div.artwork-grid` arrange exhibitions and artworks in columns. Thus, visitors can easily explore the offered content. Various elements such as `div.section-header` and `div.collection-header` separate various sections and form hierarchy.
+
+On the lower part of the website, there are the following elements: `div.footer-navigation`, `div.social-media` and `div.copyright`.
+
+In general, MoMA employs a neat layout, strong typography, large images and grid.
+
+</p>
+
+  
+  </div>
+
+</section>
+
+
+        </div>
+      </div>
+    </section>
+    <section id="questions">
+      <h2>Questions</h2>
+
+      <ul>
+        <li>
+While exploring the MoMA website, I noticed a few things that I was curious about.
+
+1. How does the website automatically rearrange images and text when the browser window becomes smaller? Is this controlled by CSS Grid or Flexbox?
+
+2. I noticed that some images are much larger than others. How does MoMA control the different image sizes while keeping the layout organized?
+
+3. How does the navigation menu change between desktop and mobile screens? Is this done only with CSS, or does it also require JavaScript?        </li>
+      </ul>
+    </section>
+  </body>
+</html>
