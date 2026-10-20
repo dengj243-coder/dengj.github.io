@@ -36,8 +36,6 @@ body {
   line-height: 1.6;
 }
 
-/* Project links */
-
 .entries {
   max-width: 530px;
 }
@@ -132,8 +130,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Content */
-
 .wrapper {
   position: relative;
   z-index: 10;
@@ -158,7 +154,6 @@ body {
   margin: 25px 0 60px;
 }
 
-/* Links */
 
 .entries {
   max-width: 550px;
