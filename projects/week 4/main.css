@@ -75,7 +75,32 @@ div {
   top: 10px;
 }
 
- <div class="relative">
-    <div class="absolute">
-    </div>
-  </div>
+
+
+.sticky {
+  background-color: red;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-height: auto;
+  padding: 15px;
+  z-index: 5;
+}
+
+.sticky {
+  background-color: rgb(0, 255, 51);
+}
+
+
+.fixed {
+   background-color: rgb(128, 122, 0);
+  position: fixed;
+  top: 20px;
+  right: 20px;
+ /* Changes size */
+  width: 120px;
+  min-height: 120px;
+  margin: 0;
+ /* Changes stacking order. */
+  z-index: 10;
+}
