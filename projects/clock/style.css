@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.ocean {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #83c9ef;
+  transition: background-color 5s;
+}
+
+
+.wave {
+  position: absolute;
+  left: -25%;
+  width: 150%;
+  height: 80%;
+  transition: top 0.15s linear;
+}
+
+
+.wave path {
+  transition: fill 5s;
+}
+
+.wave1 {
+  top: 20%;
+  fill: #68c4f0;
+  animation: drift1 12s ease-in-out infinite alternate;
+}
+
+.wave2 {
+  top: 40%;
+  fill: #139de5;
+  animation: drift2 9s ease-in-out infinite alternate;
+}
+
+.wave3 {
+  top: 60%;
+  fill: #0086da;
+  animation: drift3 6s ease-in-out infinite alternate;
+}
+
+@keyframes drift1 {
+  from { transform: translateX(-1%); }
+  to { transform: translateX(1%); }
+}
+
+@keyframes drift2 {
+  from { transform: translateX(1%); }
+  to { transform: translateX(-1%); }
+}
+
+@keyframes drift3 {
+  from { transform: translateX(-2%); }
+  to { transform: translateX(2%); }
+}
